@@ -45,7 +45,7 @@ Competitive analysis revealed lots of areas for improvement. Nearly every major 
 
 A card-sort and tree-branch analysis uncovered massive opportunities for optimization. When asked to perform a simple task find the information they’d need in order to visit the museum or to find content related to a specific artist, the vast majority of users were unable to do so.
 
-Users were asked to complete two tasks: 
+**Users were asked to complete two tasks: **
 
 1. If you were planning a trip to the Met tomorrow, what information would you seek out? Where would you look for it? <br>
 2. Find content related to your favorite kind of art or artist.<br>
@@ -62,7 +62,8 @@ Improving findability (and discoverability!) would be my new mission.
 
 Extensive studies have been conducted over the past few years in an attempt to pinpoint the causes of the decline in museum traffic. These reports were a gold mine as I sought out to learn more about the typical museum-goer.
 
-Highlights: <br>
+**Highlights:** <br>
+
 -    60% of art museum visitors are women. (source)<br>
 -    80% of the Met’s visitors are tourists. Of those tourists, 50% are international travelers and 50% are domestic. (source)<br>
 -    While 70% of museum visitors today are white, that number will fall below 50% by 2050. (source)<br>
@@ -96,15 +97,17 @@ I had two objectives when creating the visual design for the Met:
 1. Retain the Met’s image as an authority in the art world while modernizing to make the institution feel more relevant <br>
 2. Ensure the visual design didn’t compete or conflict with the wide range of imagery<br>
 
+{:.center}
 ![]({{ site.baseurl }}/img/met_moodboard.png)
 
 The color palette was intentionally quite narrow. With all of the visual content that would be featured, graphic elements needed to play a supporting role.
 
+{:.center}
 ![]({{ site.baseurl }}/img/met_color_palette.png)
 
 The elements came together to communicate a brand with authority and history while still being modern and accessible.
 
-## Step 5. User Testing
+### Step 5. User Testing
 
 Users were asked to complete two tasks:
 
@@ -113,19 +116,19 @@ Users were asked to complete two tasks:
 
 I then identified the consistent user problems and generated solutions for each.
 
-**Problem**: Users wanted to know three things before visiting the museum: hours, ticket prices and what art they should see while they were there. While an itinerary featuring the Met’s Must-See works was featured on the slideshow, none of the users saw it.<br>
-
+>**Problem**: Users wanted to know three things before visiting the museum: hours, ticket prices and what art they should see while they were there. While an itinerary featuring the Met’s Must-See works was featured on the slideshow, none of the users saw it.<br>
+<br>
 **Solution**: Add ticket prices to home page. Improve visibility of Must-See itinerary slide.
 
-**Problem**: All users chose “Research” when asked to find content about their favorite type of art. Once they were directed to the Explore section, many wanted to search, which wasn’t an option. <br>
-
+>**Problem**: All users chose “Research” when asked to find content about their favorite type of art. Once they were directed to the Explore section, many wanted to search, which wasn’t an option. <br>
+<br>
 **Solution**: Rename Explore and Research navigation titles, add search bar to content hub.
 
-**Problem**: All users expressed a desire to curate their in-person museum experience before arriving at the museum, ensuring that they would see both the Met’s most famous pieces as well as the ones that are most appealing to them.<br>
-
+>**Problem**: All users expressed a desire to curate their in-person museum experience before arriving at the museum, ensuring that they would see both the Met’s most famous pieces as well as the ones that are most appealing to them.<br>
+<br>
 **Solution**: Users to create an account and create an itinerary which would be accessible from their cell phone. As they browse exhibitions and images, they can flag items which will them be added to their personal itinerary along with a recommended route and an estimated time needed. Once they arrive at the museum they can open their itinerary on their cell phone, turning their phone into a museum map and audio guide.
 
-## Step 6. Final Product
+### Step 6. Final Product
 
 The Metropolitan Museum of Art is now positioned to achieve its goal of increasing membership and donations. A vast library of videos and images are at the fingertips, ready to convert any casual visitor into an art lover. Logistical information is more accessible than ever and the event calendar is finally getting the attention is deserves. The online experience is nearly as engaging as visiting the museum itself.
 

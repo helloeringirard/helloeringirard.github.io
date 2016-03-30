@@ -10,9 +10,9 @@ feature-img: "img/color.png"
 
 email [helloeringirard@gmail.com](mailto:helloeringirard@gmail.com)
 
-<form action="https://getsimpleform.com/messages?form_api_token=" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=ecdd7527e15d8092a29a85604e5e3938" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='full-url/thank-you/' />
+  <input type='hidden' name='redirect_to' value='https://helloeringirard.github.io/thank-you/' />
   <input type='text' name='name' placeholder='name' />
   <input type='email' name='email' placeholder='email' />
   <textarea name='message' placeholder='type message here'></textarea>
