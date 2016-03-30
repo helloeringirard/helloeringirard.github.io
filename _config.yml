@@ -5,7 +5,7 @@ url: "http://www.domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
+  title: Erin Girard
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
@@ -14,21 +14,21 @@ theme:
      <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
   header_text_feature_image: 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>.
 
   # Icons
   rss: false
-  email_address: helloeringirard@gmail.com
+  email_address: 
   behance:
   bitbucket:
   dribbble: 
   facebook: 
   flickr:
-  github: helloeringirard
+  github: 
   google_plus:
-  instagram: https://www.instagram.com/helloerin/
+  instagram: helloerin
   linkedin:  https://www.linkedin.com/in/helloeringirard
-  pinterest: https://www.pinterest.com/OhHiErin/
+  pinterest: OhHiErin
   reddit:
   soundcloud:
   stack_exchange:  # Full URL

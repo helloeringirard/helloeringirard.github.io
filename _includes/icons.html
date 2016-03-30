@@ -1,3 +1,29 @@
+{% if site.theme.instagram %}
+<li>
+	<a href="http://instagram.com/{{ site.theme.instagram }}" title="{{ site.theme.str_follow_on }} Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+</li>
+{% endif %}
+
+{% if site.theme.pinterest %}
+<li>
+	<a href="http://www.pinterest.com/{{ site.theme.pinterest }}" title="{{ site.theme.str_follow_on }} Pinterest">
+		<i class="fa fa-fw fa-pinterest"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.linkedin %}
+<li>
+	<a href="{{ site.theme.linkedin }}" title="{{ site.theme.str_follow_on }} LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+{% endif %}
+
+
 {% if site.theme.rss %}
 <li>
 	<a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" title="{{ site.theme.str_rss_follow }}">
@@ -70,29 +96,6 @@
 </li>
 {% endif %}
 
-{% if site.theme.instagram %}
-<li>
-	<a href="http://instagram.com/{{ site.theme.instagram }}" title="{{ site.theme.str_follow_on }} Instagram">
-		<i class="fa fa-fw fa-instagram"></i>
-	</a>
-</li>
-{% endif %}
-
-{% if site.theme.linkedin %}
-<li>
-	<a href="{{ site.theme.linkedin }}" title="{{ site.theme.str_follow_on }} LinkedIn">
-		<i class="fa fa-fw fa-linkedin"></i>
-	</a>
-</li>
-{% endif %}
-
-{% if site.theme.pinterest %}
-<li>
-	<a href="http://www.pinterest.com/{{ site.theme.pinterest }}" title="{{ site.theme.str_follow_on }} Pinterest">
-		<i class="fa fa-fw fa-pinterest"></i>
-	</a>
-</li>
-{% endif %}
 
 {% if site.theme.reddit %}
 <li>
