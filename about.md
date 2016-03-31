@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "img/erin_girard.png"
+group: "navigation"
 ---
 
 ![]({{ site.baseurl }}/img/erin_girard.png)

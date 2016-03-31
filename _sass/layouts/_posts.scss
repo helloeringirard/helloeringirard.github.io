@@ -55,39 +55,54 @@ header {
 }
 
 .post-content {
-  form {
+  font-size: .9em;
+    
+  p a:link {
+        text-decoration: underline;
+    }
+    p a:hover {
+        background: #F19982;
+    }
+    
+  form {      
       input[type="text"], input[type="email"] {
         width:100%;
         display: block;
-        padding:0.5em;
+        padding:1em;
         margin:0 0 1em;
-        border-radius:6px;
-        border:1px solid #cfcfcf;
+        border:1px solid #000000;
         box-shadow:none;
+        font-size: .8em;
       }
+      input {
+          padding: 1em;
+      }
+      
       input[type="submit"] {
-        border-radius: 0.3em;
-        border: 1px solid $link-color;
-        color:$link-color;
-        background-color:$brand-color;
+        border: none;
+        color:#ffffff;
+        font-size: .8em;
+        background-color: #30535B;
         display: inline-block;
-        margin: 1em 0;
-        padding: 0.5em 0.75em;
+        padding: 1em 5em;
+        margin-bottom: 50px;
+        box-shadow: 0px 2px 4px #979797;
+        float: right;
         &:hover {
-          background: $link-color;
-          border: 1px solid $link-color;
-          color: $background-color;
+          border: none;
+          background: #F19982;
+          color: #ffffff;
           text-decoration: none;
         }
       }
       textarea {
-        border-radius:6px;
-        padding:0.5em;
+        padding:1em 1em 10em 1em;
         margin:0 0 1em;
         display: block;
         width:100%;
-        border:1px solid #cfcfcf;
+        border:1px solid #000000;
         box-shadow:none;
+        font-size: .8em;
       }
     }
 }

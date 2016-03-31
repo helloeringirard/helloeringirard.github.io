@@ -1,6 +1,6 @@
 // Typography
-$font-family-main: 'Lato', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Abril Fatface', Georgia, serif, cursive;
+$font-family-main: 'Libre Baskerville', Times New Roman, serif;
+$font-family-headings: 'Libre Baskerville', Times New Roman, serif;
 $font-size: 1.25em;
 
 // Padding
@@ -9,22 +9,22 @@ $padding-small: 5%;
 $padding-x-small: 3%;
 
 // Brand colours
-$brand-color: #fff;
+$brand-color: #F2EEEB;
 $background-color: #fff;
-$border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
+$border-color: #979797; // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #4a4a4a;
-$link-color: #0070BB;
+$text-color: #262626;
+$link-color: #262626;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
-$header-link-color: #383838;
+$header-link-color: #262626;
 
 // Feature image for articles
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #0070BB;
+$header-desc-background-color: #D4D4D4;
 $header-desc-text-color: #FFF;
