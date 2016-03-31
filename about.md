@@ -21,3 +21,5 @@ Since transitioning to User Experience Design full-time, I’ve become a detail-
 
 _want to work together?_<br>
 [helloeringirard@gmail.com](mailto:helloeringirard@gmail.com)
+<br>
+<br>

@@ -1,10 +1,31 @@
 <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
-{% if site.theme.footer_text %}
+
 <footer class="site-footer">
-    <!-- Social icons from Font Awesome, if enabled -->
-	  <ul>
-	    {% include icons.html %}
-		</ul>
+    <ul>
+        <li>
+                 {% include icons.html %}
+        </li> 
+    </ul>
 </footer>
-{% endif %}
+
+
+
+<!--{% for page in site.pages %}
+                {% if page.title and page.hide != true %}
+                {% if  page.title == highlight %}
+                    <li>
+                        <a class="page-link highlight" href="{{ page.url | prepend: site.baseurl }}">
+                            {{ page.title }}
+                        </a>
+                    </li>
+                {% else %}
+                      <li>
+                        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+                            {{ page.title }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% endif %}
+            {% endfor %} -->
+   

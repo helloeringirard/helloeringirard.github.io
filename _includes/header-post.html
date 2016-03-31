@@ -11,18 +11,26 @@
   </div>
   {% endif %}
 
+    {% assign highlight = page.title %}
     
     <nav class="site-nav">
 		<ul>
             {% for page in site.pages %}
-                {% if page.title and page.hide != true %}    
+                {% if page.title and page.hide != true %}
+                {% if  page.title == highlight %}
                     <li>
+                        <a class="page-link highlight" href="{{ page.url | prepend: site.baseurl }}">
+                            {{ page.title }}
+                        </a>
+                    </li>
+                {% else %}
+                      <li>
                         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
                             {{ page.title }}
                         </a>
                     </li>
-      
-            {% endif %}
+                {% endif %}
+                {% endif %}
             {% endfor %}
    
             
