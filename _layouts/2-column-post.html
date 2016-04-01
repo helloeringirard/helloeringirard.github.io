@@ -1,0 +1,24 @@
+---
+layout: 2-column-post
+---
+
+<!DOCTYPE html>
+<html class="no-js">
+  {% include head.html %}
+  <body>
+    {% include header-post.html %}
+    <div class="content-left">
+          {% if page.img %}
+  <img src="{{ site.baseurl}}{{page.img}}">
+{% endif %}
+    </div>
+      
+    <div class="content-right">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>    
+    {% include footer.html %}
+  </body>
+</div>
+</html>

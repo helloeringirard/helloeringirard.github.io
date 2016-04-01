@@ -1,13 +1,10 @@
 ---
-layout: page
+layout: 2-column-post
 title: About
 permalink: /about/
-feature-img: "img/erin_girard.png"
+img: "/img/erin_girard.png"
 group: "navigation"
 ---
-
-![]({{ site.baseurl }}/img/erin_girard.png)
-
 
 Hello, my name is Erin Girard and I’m a user experience designer based in San Francisco.
 

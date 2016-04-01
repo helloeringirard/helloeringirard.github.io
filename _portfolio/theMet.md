@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Metropolitan Museum of Art
-thumbnail-path: "img/blocitoff.png"
-short-description: Build a discovery dashboard for the Metropolitan Museum of Art. 
+thumbnail-path: "img/met_final.png"
+short-description: a discovery dashboard for the Metropolitan Museum of Art
 
 ---
 

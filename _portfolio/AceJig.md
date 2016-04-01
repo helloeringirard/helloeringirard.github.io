@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Ace & Jig
-thumbnail-path: "img/blocitoff.png"
-short-description: Build a intuitive and beautiful mobile shopping experience. 
-
+thumbnail-path: "img/acejig_final.png"
+short-description: mobile shopping experience
 ---
 
 {:.center}

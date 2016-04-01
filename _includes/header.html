@@ -13,9 +13,12 @@
     
     <nav class="site-nav">
 		<ul>
+            <li>
+                <a class="page-link highlight" href="{{ page.url | prepend: site.baseurl }}">work</a>
+            </li>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
-			<li>
+            <li>
 				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
 					{{ page.title }}
 				</a>
