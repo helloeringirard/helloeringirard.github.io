@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ace & Jig
-thumbnail-path: "img/acejig_final.png"
-short-description: mobile shopping experience
+thumbnail-path: "img/acejig_preview_img.png"
+short-description: mobile ecommerce concept
 ---
 
 {:.center}

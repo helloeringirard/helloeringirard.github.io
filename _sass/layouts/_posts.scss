@@ -128,6 +128,12 @@ header {
         max-width: 650px;
         p {
             font-size: .9em;
+            a:link {
+                text-decoration: underline;
+            }
+            a:hover {
+                background-color: #F19982; 
+            }
         }
     }
 }

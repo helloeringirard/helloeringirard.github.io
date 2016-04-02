@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Metropolitan Museum of Art
-thumbnail-path: "img/met_final.png"
-short-description: a discovery dashboard for the Metropolitan Museum of Art
+thumbnail-path: "img/placeholder.png"
+short-description: redesign concept
 
 ---
 
