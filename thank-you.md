@@ -6,4 +6,6 @@ feature-img: "img/color.png"
 hide: true
 ---
 
-thank you! 
+Thanks so much for your message! I'll be in touch shortly. 
+
+In the meantime, connect on social media!

@@ -54,4 +54,27 @@
       }
 
   }
+    
+    .sub-nav {
+        ul {
+            list-style: none;
+            width: 100%;
+            text-align: center;
+            padding-top: .5em;
+        }
+        li {
+            display: inline;
+            padding-left: 1em;
+        }
+        .highlight {
+            background-color: #F19982;
+        }
+         a:link {
+            text-decoration: none;
+        }
+      
+        a:hover {
+          background-color: #F19982;
+        }
+    }
 }

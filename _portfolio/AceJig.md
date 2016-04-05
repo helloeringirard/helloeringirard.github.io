@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Ace & Jig
+type: portfolio_item
 thumbnail-path: "img/acejig_preview_img.png"
-short-description: mobile ecommerce concept
+short-description: Redesign Concept
 ---
 
 {:.center}

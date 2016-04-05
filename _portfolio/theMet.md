@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Metropolitan Museum of Art
-thumbnail-path: "img/placeholder.png"
+type: portfolio_item
+thumbnail-path: "img/met_preview_img.png"
 short-description: redesign concept
 
 ---

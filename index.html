@@ -12,13 +12,13 @@ layout: default
           <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
         </a>
       </div>
-      <div class="project-description">
-        <a href="{{ project.url | prepend: site.baseurl }}"><strong>{{ project.title }}</strong></a>
-        <p>{{ project.short-description }}</p>
-              <a href="{{ project.url | prepend: site.baseurl }}" class="work_button">
-                  View  Project
-              </a>
-      </div>
+        <div class="project-description">
+            <a href="{{ project.url | prepend: site.baseurl }}"><strong>{{ project.title }}</strong></a>
+            <a href="{{ project.url | prepend: site.baseurl }}"><p>{{ project.short-description }}</p></a>
+                <a href="{{ project.url | prepend: site.baseurl }}" class="view_project">
+                  View  Project >>
+            </a>
+        </div>
     </div>
     {% endfor %}
   </div>

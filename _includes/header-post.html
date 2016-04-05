@@ -15,9 +15,10 @@
     
     <nav class="site-nav">
 		<ul>
-            <li>
+              <li>
                 <a class="page-link" href="{{site.baseurl}}/">work</a>
-            </li>
+              </li>
+          
             {% for page in site.pages %}
                 {% if page.title and page.hide != true %}
                 {% if  page.title == highlight %}
@@ -34,10 +35,26 @@
                     </li>
                 {% endif %}
                 {% endif %}
-            {% endfor %}
-   
-            
-		</ul>
+            {% endfor %}            
+            </ul>         
     </nav>
+    
+    {% if page.type == 'portfolio_item' %}
+    <nav class="sub-nav">
+        <ul>  
+            {% for page in site.portfolio %}
+            {% if page.title == highlight %}
+                <li>
+                    <a class="highlight" href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a>
+                </li> 
+            {% else %}
+                   <li>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a>
+                   </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
 </header>
 
