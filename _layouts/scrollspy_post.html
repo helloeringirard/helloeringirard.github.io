@@ -1,0 +1,32 @@
+---
+layout: post-header
+---
+<div {% if page.thumbnail-path %}class="feature-image"{% endif %}>
+     <a>
+          <!--<img src="{{ page.thumbnail-path }}" alt="{{ project.title }}"/>-->
+     </a>
+</div>
+
+<div class="content-right">     
+    
+    <article>
+        <section class="post-content" data-spy="scroll" data-target="#navbar" data-offset="50">{{ content }}</section>
+    </article>    
+</div>
+
+<div class="content-left">
+   <div id='toc'>
+   </div>
+</div>
+
+<script> $(document).ready(function() {
+                $("#toc").toc();
+            });   
+    </script>
+
+<!-- Disqus -->
+{% if site.theme.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scrollspy_post
 title: Metropolitan Museum of Art
 type: portfolio_item
 thumbnail-path: "img/met_preview_img.png"

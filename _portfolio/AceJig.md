@@ -1,13 +1,10 @@
 ---
-layout: post
+layout: scrollspy_post
 title: Ace & Jig
 type: portfolio_item
 thumbnail-path: "img/acejig_preview_img.png"
 short-description: Redesign Concept
 ---
-
-{:.center}
-![]({{ site.baseurl }}/img/acejig_final.png)
 
 ## The Problem
 
