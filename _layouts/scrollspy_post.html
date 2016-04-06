@@ -7,17 +7,16 @@ layout: post-header
      </a>
 </div>
 
-<div class="content-right">     
-    
-    <article>
-        <section class="post-content" data-spy="scroll" data-target="#navbar" data-offset="50">{{ content }}</section>
-    </article>    
-</div>
-
-<div class="content-left">
+<div class="toc-left">
    <div id='toc'>
    </div>
 </div>
+
+<div class="toc-right">         
+        <section class="post-content" data-spy="scroll" data-target="#navbar" data-offset="50">{{ content }}</section>
+    </div>
+
+
 
 <script> $(document).ready(function() {
                 $("#toc").toc();
