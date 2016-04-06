@@ -138,3 +138,55 @@ header {
         }
     }
 }
+
+.toc-left{
+    padding: 0;
+    
+    #toc {
+        width: 30%;
+        float: left;
+        padding: 4.5% 10% 1% 5%;
+        font-size: .8em; 
+    }
+}
+
+#toc i {
+    color: #262626;
+}
+
+#toc ul {
+       list-style-type: none;
+       padding-bottom: 2%;
+       padding-top: 5%;
+}
+
+#toc ul li {
+    padding: 2% 0% 2% 0%;
+}
+
+#toc ul li ul li {
+    font-size: .8em;
+    padding: 2% 0% 5% 15%;
+}
+
+#toc ul li a:link {
+    text-decoration: none;
+}
+
+#toc ul li a:hover {
+    background-color: #F19982;
+}
+
+#toc ul li ul li a:link {
+    text-decoration: none;
+}
+
+#toc ul li ul li a:hover {
+    background-color: #F19982;
+}
+
+.toc-right {
+    width: 70%;
+    float: right; 
+    padding: 2.5% 8% 3% 1%;
+}
