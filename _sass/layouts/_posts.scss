@@ -185,8 +185,19 @@ header {
     background-color: #F19982;
 }
 
+#toc ul li a:focus {
+    text-decoration: underline;
+    background-color: #F19982;
+}
+
+#toc ul li.active {
+    text-decoration: underline;
+    background-color: #F19982;
+}
+
 .toc-right {
     width: 70%;
     float: right; 
     padding: 2.5% 8% 3% 1%;
+    position: relative;
 }

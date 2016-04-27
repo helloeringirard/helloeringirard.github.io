@@ -8,14 +8,15 @@ layout: post-header
 </div>
 
 <div class="toc-left">
+ <nav>
    <div id='toc'>
    </div>
+  </nav>
 </div>
 
 <div class="toc-right">         
         <section class="post-content" data-spy="scroll" data-target="#navbar" data-offset="50">{{ content }}</section>
-    </div>
-
+</div>
 
 
 <script> $(document).ready(function() {
@@ -23,6 +24,15 @@ layout: post-header
             });   
     </script>
 
+ <!-- Makes Table of Contents Fixed after scroll -->
+     <script src="{{ "/js/fixed.js" | prepend: site.baseurl }}" type="text/javascript">        
+        </script>
+
+<!-- ScrollSpy -->
+    
+    <script src="{{ "/js/scrollspy.js" | prepend: site.baseurl }}" type="text/javascript">        
+        </script>
+    
 <!-- Disqus -->
 {% if site.theme.disqus_shortname %}
 <div class="comments">
