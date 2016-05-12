@@ -229,4 +229,3 @@ $('#toc').onePageNav({
    changeHash: false,
    scrollSpeed: 750
   });
-alert("WTF")

@@ -3,12 +3,9 @@ layout: scrollspy_post
 title: Metropolitan Museum of Art
 type: portfolio_item
 thumbnail-path: "img/met_preview_img.png"
-short-description: redesign concept
+short-description: Redesign Concept
 
 ---
-
-{:.center}
-![]({{ site.baseurl }}/img/met_final.png)
 
 ## The Problem
 
@@ -21,7 +18,7 @@ The Met’s traffic is down (a quick Google Trends search yields a depressing gr
 ![]({{ site.baseurl }}/img/met_google_trends.png)
 
 
-As an art lover, my goal was to help reverse this traffic trend by creating a user experience that is engaging and inspiring, ultimately resulting in increased traffic and donations.
+As an art lover myself, my goal was to help reverse this traffic trend by creating a user experience that is engaging and inspiring, ultimately resulting in increased traffic and donations.
 
 <hr>
 
@@ -38,17 +35,21 @@ Drive user engagement with the Metropolitan Museum of Art by bringing awareness 
 Competitive analysis revealed lots of areas for improvement. Nearly every major art museum in America was doing a better job of several things: 
 
 1. Providing engaging content (videos, image galleries) to get users excited about visiting the museum<br>
+
 2. Quickly providing the information those visitors need in order to visit the museum<br>
+
 3. Ensuring findability of content. Whether users were looking for a specific piece of art, museum restaurants or children’s resources, information was organized and searchable on other museums’ sites<br>
+
 4. Providing an engaging and effective mobile experience<br>
 
 ![]({{ site.baseurl }}/img/met_competitive_analysis.png)
 
 A card-sort and tree-branch analysis uncovered massive opportunities for optimization. When asked to perform a simple task find the information they’d need in order to visit the museum or to find content related to a specific artist, the vast majority of users were unable to do so.
 
-**Users were asked to complete two tasks: **
+**Users were asked to complete two tasks:**
 
 1. If you were planning a trip to the Met tomorrow, what information would you seek out? Where would you look for it? <br>
+
 2. Find content related to your favorite kind of art or artist.<br>
 
 Navigation titles were cryptic and search functionality was spotty at best.
@@ -63,8 +64,7 @@ Improving findability (and discoverability!) would be my new mission.
 
 Extensive studies have been conducted over the past few years in an attempt to pinpoint the causes of the decline in museum traffic. These reports were a gold mine as I sought out to learn more about the typical museum-goer.
 
-**Highlights:** <br>
-
+>**Highlights:** <br>
 -    60% of art museum visitors are women. (source)<br>
 -    80% of the Met’s visitors are tourists. Of those tourists, 50% are international travelers and 50% are domestic. (source)<br>
 -    While 70% of museum visitors today are white, that number will fall below 50% by 2050. (source)<br>
@@ -132,7 +132,17 @@ I then identified the consistent user problems and generated solutions for each.
 ### Step 6. Final Product
 
 The Metropolitan Museum of Art is now positioned to achieve its goal of increasing membership and donations. A vast library of videos and images are at the fingertips, ready to convert any casual visitor into an art lover. Logistical information is more accessible than ever and the event calendar is finally getting the attention is deserves. The online experience is nearly as engaging as visiting the museum itself.
+<br>
+<br>
 
-![]({{ site.baseurl }}/img/met_final.png)
+#### Final Homepage Design
 
-<hr>
+
+![]({{ site.baseurl }}/img/met_home_page_final.png)
+
+<br>
+
+#### Final Multimedia Hub Design
+
+
+![]({{ site.baseurl }}/img/met_hub_final.png)

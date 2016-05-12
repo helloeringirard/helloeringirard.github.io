@@ -6,7 +6,7 @@ img: "/img/erin_girard.png"
 group: "navigation"
 ---
 
-Hello, my name is Erin Girard and I’m a user experience designer based in San Francisco.
+Hello, my name is Erin Girard and I’m a User Experience Designer based in San Francisco.
 
 I kicked off my career working for America’s largest clothing brand, where I ran a $25M product category. It was here that I learned to be an advocate for the consumer, to curate a cohesive brand experience and to drive long-term commercial strategies.
 
