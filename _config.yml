@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/helloeringirard.github.io" # te subpath of your site, e.g. /blog/
-url: "http://helloeringirard.github.io" # te base hostname & protocol for your site
+url: "http://eringirard.com" # te base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
