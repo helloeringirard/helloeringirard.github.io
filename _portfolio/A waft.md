@@ -2,7 +2,7 @@
 layout: post
 title: Waft Aromatics
 type: portfolio_item
-thumbnail-path: "img/waft_preview_img.png"
+thumbnail-path: "img/waft_really_white.jpg"
 short-description: Brand Identity, Product Design, Web Design
 ---
 
